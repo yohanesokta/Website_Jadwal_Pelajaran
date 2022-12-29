@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+h1:first-child{
+    text-align: center;
+    font-weight:bold;
+    font-family: "Permanent Marker", Helvetica, sans-serif;
+    padding: 20px;
+}
+body{
+    display: block;
+    background-image: url("img/background.jpg");
+    background-color: #cccc;
+}
+.table{
+    display: flex;
+    width: 100%;
+}
+table{
+    margin: auto;
+    padding: 20px;
+}
+.day td{
+    padding:10px 20px;
+    background-color: #2E6AE2;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+td{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu td:first-child{
+    padding: 10px 20px;
+    background-color:#148F77;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.menu-l{
+    padding: 10px 20px;
+    background-color:#A569BD;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.menu-e{
+    padding: 10px 20px;
+    background-color:#F8F9F9;
+    text-align: center;
+    border-radius: 10px;
+}
+.menu-e a{
+    color: red;
+}
+p,h2{
+    text-align: center;
+}
+
+
+.menu-y{
+    background-color: #5b1d74;
+}
+    .table-con{
+        display: flex;
+        overflow: scroll;
+        width: 100vw;
+        margin: auto;
+    }
