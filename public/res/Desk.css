@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(23, 23, 112);
+    display: flex;
+}
+form{
+    margin: auto;
+}
+form select{
+    padding: 10px 50px 10px 5px; 
+    font-size: 18px;
+    background-color:  rgba(255, 255, 255,0.3);
+    color: white;
+}
+form select option{
+    color: black;
+}
+.jd{
+    position: absolute;
+    margin-top: 65px;
+    width: 100%;
+    height: 90%;
+    padding: 0 5px;
+    background-color:rgb(171, 183, 255);
+    overflow: scroll;
+}
+.jd .jd-co{
+    width: 100%;
+    height: 40px;
+    margin: 4px 0;
+    font-size: 18px;
+    display: flex;
+    background-color: white;
+}
+.jd .jd-co .jam{
+    font-family: sans-serif;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0 10px;
+}
+.jd .jd-co .mapel{
+    width: 100%;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 25px;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.image{
+    display: flex;
+    width: 100%;
+}
+footer .image img{
+    width: 60px;
+    margin: auto;
+}
+.f-data{
+    margin: auto;
+    font-family: sans-serif;
+}
+.f-data p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.f-data a{
+    margin-top: 25px;
+}

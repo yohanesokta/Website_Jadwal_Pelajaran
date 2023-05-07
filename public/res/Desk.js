@@ -1,0 +1,1 @@
+document.getElementById('Day').value = 'Selasa'
