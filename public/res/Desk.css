@@ -3,16 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color:rgb(255, 240, 171);
+}
 nav{
     margin: 0;
     position: fixed;
     width: 100%;
     height: 10%;
-    background-color: rgb(23, 23, 112);
+    background-color: rgb(156, 88, 24);
     display: flex;
 }
 form{
+    display: flex;
     margin: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+form a{
+    margin: auto 15px;
+    font-size: 24px;
+    color:white;
 }
 form select{
     padding: 10px 50px 10px 5px; 
@@ -24,61 +35,74 @@ form select option{
     color: black;
 }
 .jd{
+    animation: delay 0.5s;
     position: absolute;
     margin-top: 65px;
     width: 100%;
     height: 90%;
     padding: 0 5px;
-    background-color:rgb(171, 183, 255);
+    background-color:rgb(255, 240, 171);
     overflow: scroll;
+}
+@keyframes delay {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .jd .jd-co{
     width: 100%;
     height: 40px;
     margin: 4px 0;
     font-size: 18px;
+    border-radius: 10px;
     display: flex;
-    background-color: white;
-}
+    background-color: rgb(56, 56, 56);}
+    
 .jd .jd-co .jam{
+    color:white;
     font-family: sans-serif;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 0 10px;
 }
 .jd .jd-co .mapel{
     width: 100%;
+    color: white;
     font-family: sans-serif;
     margin-left: 10px;
-    margin-top: 5px;
-}
-footer{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    margin-top: 25px;
-    background-color: white;
-    padding: 5px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-}
-.image{
-    display: flex;
-    width: 100%;
-}
-footer .image img{
-    width: 60px;
-    margin: auto;
-}
-.f-data{
-    margin: auto;
-    font-family: sans-serif;
-}
-.f-data p{
-    text-align: center;
     margin-top: 10px;
-    font-weight: bold;
 }
-.f-data a{
-    margin-top: 25px;
+.isi span{
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.isi:hover p{
+    opacity: 0;
+    margin-top: -20px;
+    transition: 0.5s ease;
+}
+.isi:hover span{
+    opacity: 1;
+}
+
+.add{
+    position: absolute;
+    display: none;
+    animation: delay 0.3s;
+    margin-top: 65px;
+    width: 100%;
+    height: 90%;
+    padding: 0 5px;
+    background-color:rgb(255, 240, 171);
+    overflow: scroll;
+}
+.add p{
+    font-family: sans-serif;
+    color: coral;
+    width:80%;
+    margin-left: 10px;
+    margin-top: 40px;
 }
